@@ -13,3 +13,7 @@ def enlever_ponctuation(chaine):
 # 2 - On enlève les mots vides
 def enlever_mots_vides(chaine):
     return [mot for mot in chaine if mot not in stopwords.words("french")]
+
+# 3 - Tokenisation des mots, on les sépare en mots
+def tokenisation(chaine):
+    return chaine.split()
